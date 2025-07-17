@@ -1,0 +1,23 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource>
+        <file>icons/chatty.png</file>
+        <file>icons/send.png</file>
+        <file>icons/attach.png</file>
+        <file>icons/settings.png</file>
+        <file>icons/user.png</file>
+        <file>icons/assistant.png</file>
+        <file>icons/copy.png</file>
+        <file>icons/retry.png</file>
+        <file>icons/delete.png</file>
+        <file>icons/clear.png</file>
+        <file>icons/new.png</file>
+        <file>icons/open.png</file>
+        <file>icons/save.png</file>
+        <file>icons/export.png</file>
+        <file>icons/theme.png</file>
+        <file>styles/modern.qss</file>
+        <file>styles/dark.qss</file>
+        <file>styles/light.qss</file>
+    </qresource>
+</RCC> 

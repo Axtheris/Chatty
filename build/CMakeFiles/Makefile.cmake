@@ -247,6 +247,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.30.5/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.30.5/CMakeRCCompiler.cmake"
   "CMakeFiles/3.30.5/CMakeSystem.cmake"
+  "C:/Users/kevin/Desktop/Chatty/resources/resources.qrc"
   )
 
 # The corresponding makefile is:
@@ -258,6 +259,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/Chatty_autogen.dir/AutogenInfo.json"
+  "CMakeFiles/Chatty_autogen.dir/AutoRcc_resources_3YJK5W5UP7_Info.json"
   ".qt/QtDeploySupport.cmake"
   ".qt/QtDeployTargets.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"

@@ -68,11 +68,34 @@ include CMakeFiles/Chatty.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Chatty.dir/flags.make
 
+Chatty_autogen/timestamp: C:/Qt/6.9.1/mingw_64/bin/moc.exe
+Chatty_autogen/timestamp: C:/Qt/6.9.1/mingw_64/bin/uic.exe
+Chatty_autogen/timestamp: CMakeFiles/Chatty.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\kevin\Desktop\Chatty\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target Chatty"
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autogen C:/Users/kevin/Desktop/Chatty/build/CMakeFiles/Chatty_autogen.dir/AutogenInfo.json Release
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E touch C:/Users/kevin/Desktop/Chatty/build/Chatty_autogen/timestamp
+
+Chatty_autogen/3YJK5W5UP7/qrc_resources.cpp: C:/Users/kevin/Desktop/Chatty/resources/resources.qrc
+Chatty_autogen/3YJK5W5UP7/qrc_resources.cpp: CMakeFiles/Chatty_autogen.dir/AutoRcc_resources_3YJK5W5UP7_Info.json
+Chatty_autogen/3YJK5W5UP7/qrc_resources.cpp: C:/Users/kevin/Desktop/Chatty/resources/styles/modern.qss
+Chatty_autogen/3YJK5W5UP7/qrc_resources.cpp: C:/Users/kevin/Desktop/Chatty/resources/icons/assistant.png
+Chatty_autogen/3YJK5W5UP7/qrc_resources.cpp: C:/Users/kevin/Desktop/Chatty/resources/icons/app.png
+Chatty_autogen/3YJK5W5UP7/qrc_resources.cpp: C:/Users/kevin/Desktop/Chatty/resources/icons/settings.png
+Chatty_autogen/3YJK5W5UP7/qrc_resources.cpp: C:/Users/kevin/Desktop/Chatty/resources/icons/chat.png
+Chatty_autogen/3YJK5W5UP7/qrc_resources.cpp: C:/Users/kevin/Desktop/Chatty/resources/icons/file.png
+Chatty_autogen/3YJK5W5UP7/qrc_resources.cpp: C:/Users/kevin/Desktop/Chatty/resources/icons/user.png
+Chatty_autogen/3YJK5W5UP7/qrc_resources.cpp: C:/Users/kevin/Desktop/Chatty/resources/icons/attachment.png
+Chatty_autogen/3YJK5W5UP7/qrc_resources.cpp: C:/Users/kevin/Desktop/Chatty/resources/icons/send.png
+Chatty_autogen/3YJK5W5UP7/qrc_resources.cpp: C:/Qt/6.9.1/mingw_64/bin/rcc.exe
+Chatty_autogen/3YJK5W5UP7/qrc_resources.cpp: C:/Qt/6.9.1/mingw_64/bin/rcc.exe
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\kevin\Desktop\Chatty\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic RCC for resources/resources.qrc"
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autorcc C:/Users/kevin/Desktop/Chatty/build/CMakeFiles/Chatty_autogen.dir/AutoRcc_resources_3YJK5W5UP7_Info.json Release
+
 CMakeFiles/Chatty.dir/Chatty_autogen/mocs_compilation.cpp.obj: CMakeFiles/Chatty.dir/flags.make
 CMakeFiles/Chatty.dir/Chatty_autogen/mocs_compilation.cpp.obj: CMakeFiles/Chatty.dir/includes_CXX.rsp
 CMakeFiles/Chatty.dir/Chatty_autogen/mocs_compilation.cpp.obj: Chatty_autogen/mocs_compilation.cpp
 CMakeFiles/Chatty.dir/Chatty_autogen/mocs_compilation.cpp.obj: CMakeFiles/Chatty.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\kevin\Desktop\Chatty\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Chatty.dir/Chatty_autogen/mocs_compilation.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\kevin\Desktop\Chatty\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Chatty.dir/Chatty_autogen/mocs_compilation.cpp.obj"
 	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Chatty.dir/Chatty_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\Chatty.dir\Chatty_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\Chatty.dir\Chatty_autogen\mocs_compilation.cpp.obj -c C:\Users\kevin\Desktop\Chatty\build\Chatty_autogen\mocs_compilation.cpp
 
 CMakeFiles/Chatty.dir/Chatty_autogen/mocs_compilation.cpp.i: cmake_force
@@ -83,14 +106,184 @@ CMakeFiles/Chatty.dir/Chatty_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Chatty.dir/Chatty_autogen/mocs_compilation.cpp.s"
 	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\kevin\Desktop\Chatty\build\Chatty_autogen\mocs_compilation.cpp -o CMakeFiles\Chatty.dir\Chatty_autogen\mocs_compilation.cpp.s
 
+CMakeFiles/Chatty.dir/src/main.cpp.obj: CMakeFiles/Chatty.dir/flags.make
+CMakeFiles/Chatty.dir/src/main.cpp.obj: CMakeFiles/Chatty.dir/includes_CXX.rsp
+CMakeFiles/Chatty.dir/src/main.cpp.obj: C:/Users/kevin/Desktop/Chatty/src/main.cpp
+CMakeFiles/Chatty.dir/src/main.cpp.obj: CMakeFiles/Chatty.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\kevin\Desktop\Chatty\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Chatty.dir/src/main.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Chatty.dir/src/main.cpp.obj -MF CMakeFiles\Chatty.dir\src\main.cpp.obj.d -o CMakeFiles\Chatty.dir\src\main.cpp.obj -c C:\Users\kevin\Desktop\Chatty\src\main.cpp
+
+CMakeFiles/Chatty.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Chatty.dir/src/main.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kevin\Desktop\Chatty\src\main.cpp > CMakeFiles\Chatty.dir\src\main.cpp.i
+
+CMakeFiles/Chatty.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Chatty.dir/src/main.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\kevin\Desktop\Chatty\src\main.cpp -o CMakeFiles\Chatty.dir\src\main.cpp.s
+
+CMakeFiles/Chatty.dir/src/MainWindow.cpp.obj: CMakeFiles/Chatty.dir/flags.make
+CMakeFiles/Chatty.dir/src/MainWindow.cpp.obj: CMakeFiles/Chatty.dir/includes_CXX.rsp
+CMakeFiles/Chatty.dir/src/MainWindow.cpp.obj: C:/Users/kevin/Desktop/Chatty/src/MainWindow.cpp
+CMakeFiles/Chatty.dir/src/MainWindow.cpp.obj: CMakeFiles/Chatty.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\kevin\Desktop\Chatty\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Chatty.dir/src/MainWindow.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Chatty.dir/src/MainWindow.cpp.obj -MF CMakeFiles\Chatty.dir\src\MainWindow.cpp.obj.d -o CMakeFiles\Chatty.dir\src\MainWindow.cpp.obj -c C:\Users\kevin\Desktop\Chatty\src\MainWindow.cpp
+
+CMakeFiles/Chatty.dir/src/MainWindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Chatty.dir/src/MainWindow.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kevin\Desktop\Chatty\src\MainWindow.cpp > CMakeFiles\Chatty.dir\src\MainWindow.cpp.i
+
+CMakeFiles/Chatty.dir/src/MainWindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Chatty.dir/src/MainWindow.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\kevin\Desktop\Chatty\src\MainWindow.cpp -o CMakeFiles\Chatty.dir\src\MainWindow.cpp.s
+
+CMakeFiles/Chatty.dir/src/ChatWidget.cpp.obj: CMakeFiles/Chatty.dir/flags.make
+CMakeFiles/Chatty.dir/src/ChatWidget.cpp.obj: CMakeFiles/Chatty.dir/includes_CXX.rsp
+CMakeFiles/Chatty.dir/src/ChatWidget.cpp.obj: C:/Users/kevin/Desktop/Chatty/src/ChatWidget.cpp
+CMakeFiles/Chatty.dir/src/ChatWidget.cpp.obj: CMakeFiles/Chatty.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\kevin\Desktop\Chatty\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Chatty.dir/src/ChatWidget.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Chatty.dir/src/ChatWidget.cpp.obj -MF CMakeFiles\Chatty.dir\src\ChatWidget.cpp.obj.d -o CMakeFiles\Chatty.dir\src\ChatWidget.cpp.obj -c C:\Users\kevin\Desktop\Chatty\src\ChatWidget.cpp
+
+CMakeFiles/Chatty.dir/src/ChatWidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Chatty.dir/src/ChatWidget.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kevin\Desktop\Chatty\src\ChatWidget.cpp > CMakeFiles\Chatty.dir\src\ChatWidget.cpp.i
+
+CMakeFiles/Chatty.dir/src/ChatWidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Chatty.dir/src/ChatWidget.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\kevin\Desktop\Chatty\src\ChatWidget.cpp -o CMakeFiles\Chatty.dir\src\ChatWidget.cpp.s
+
+CMakeFiles/Chatty.dir/src/MessageWidget.cpp.obj: CMakeFiles/Chatty.dir/flags.make
+CMakeFiles/Chatty.dir/src/MessageWidget.cpp.obj: CMakeFiles/Chatty.dir/includes_CXX.rsp
+CMakeFiles/Chatty.dir/src/MessageWidget.cpp.obj: C:/Users/kevin/Desktop/Chatty/src/MessageWidget.cpp
+CMakeFiles/Chatty.dir/src/MessageWidget.cpp.obj: CMakeFiles/Chatty.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\kevin\Desktop\Chatty\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Chatty.dir/src/MessageWidget.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Chatty.dir/src/MessageWidget.cpp.obj -MF CMakeFiles\Chatty.dir\src\MessageWidget.cpp.obj.d -o CMakeFiles\Chatty.dir\src\MessageWidget.cpp.obj -c C:\Users\kevin\Desktop\Chatty\src\MessageWidget.cpp
+
+CMakeFiles/Chatty.dir/src/MessageWidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Chatty.dir/src/MessageWidget.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kevin\Desktop\Chatty\src\MessageWidget.cpp > CMakeFiles\Chatty.dir\src\MessageWidget.cpp.i
+
+CMakeFiles/Chatty.dir/src/MessageWidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Chatty.dir/src/MessageWidget.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\kevin\Desktop\Chatty\src\MessageWidget.cpp -o CMakeFiles\Chatty.dir\src\MessageWidget.cpp.s
+
+CMakeFiles/Chatty.dir/src/WelcomeWidget.cpp.obj: CMakeFiles/Chatty.dir/flags.make
+CMakeFiles/Chatty.dir/src/WelcomeWidget.cpp.obj: CMakeFiles/Chatty.dir/includes_CXX.rsp
+CMakeFiles/Chatty.dir/src/WelcomeWidget.cpp.obj: C:/Users/kevin/Desktop/Chatty/src/WelcomeWidget.cpp
+CMakeFiles/Chatty.dir/src/WelcomeWidget.cpp.obj: CMakeFiles/Chatty.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\kevin\Desktop\Chatty\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Chatty.dir/src/WelcomeWidget.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Chatty.dir/src/WelcomeWidget.cpp.obj -MF CMakeFiles\Chatty.dir\src\WelcomeWidget.cpp.obj.d -o CMakeFiles\Chatty.dir\src\WelcomeWidget.cpp.obj -c C:\Users\kevin\Desktop\Chatty\src\WelcomeWidget.cpp
+
+CMakeFiles/Chatty.dir/src/WelcomeWidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Chatty.dir/src/WelcomeWidget.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kevin\Desktop\Chatty\src\WelcomeWidget.cpp > CMakeFiles\Chatty.dir\src\WelcomeWidget.cpp.i
+
+CMakeFiles/Chatty.dir/src/WelcomeWidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Chatty.dir/src/WelcomeWidget.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\kevin\Desktop\Chatty\src\WelcomeWidget.cpp -o CMakeFiles\Chatty.dir\src\WelcomeWidget.cpp.s
+
+CMakeFiles/Chatty.dir/src/OpenRouterAPI.cpp.obj: CMakeFiles/Chatty.dir/flags.make
+CMakeFiles/Chatty.dir/src/OpenRouterAPI.cpp.obj: CMakeFiles/Chatty.dir/includes_CXX.rsp
+CMakeFiles/Chatty.dir/src/OpenRouterAPI.cpp.obj: C:/Users/kevin/Desktop/Chatty/src/OpenRouterAPI.cpp
+CMakeFiles/Chatty.dir/src/OpenRouterAPI.cpp.obj: CMakeFiles/Chatty.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\kevin\Desktop\Chatty\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Chatty.dir/src/OpenRouterAPI.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Chatty.dir/src/OpenRouterAPI.cpp.obj -MF CMakeFiles\Chatty.dir\src\OpenRouterAPI.cpp.obj.d -o CMakeFiles\Chatty.dir\src\OpenRouterAPI.cpp.obj -c C:\Users\kevin\Desktop\Chatty\src\OpenRouterAPI.cpp
+
+CMakeFiles/Chatty.dir/src/OpenRouterAPI.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Chatty.dir/src/OpenRouterAPI.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kevin\Desktop\Chatty\src\OpenRouterAPI.cpp > CMakeFiles\Chatty.dir\src\OpenRouterAPI.cpp.i
+
+CMakeFiles/Chatty.dir/src/OpenRouterAPI.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Chatty.dir/src/OpenRouterAPI.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\kevin\Desktop\Chatty\src\OpenRouterAPI.cpp -o CMakeFiles\Chatty.dir\src\OpenRouterAPI.cpp.s
+
+CMakeFiles/Chatty.dir/src/FileManager.cpp.obj: CMakeFiles/Chatty.dir/flags.make
+CMakeFiles/Chatty.dir/src/FileManager.cpp.obj: CMakeFiles/Chatty.dir/includes_CXX.rsp
+CMakeFiles/Chatty.dir/src/FileManager.cpp.obj: C:/Users/kevin/Desktop/Chatty/src/FileManager.cpp
+CMakeFiles/Chatty.dir/src/FileManager.cpp.obj: CMakeFiles/Chatty.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\kevin\Desktop\Chatty\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Chatty.dir/src/FileManager.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Chatty.dir/src/FileManager.cpp.obj -MF CMakeFiles\Chatty.dir\src\FileManager.cpp.obj.d -o CMakeFiles\Chatty.dir\src\FileManager.cpp.obj -c C:\Users\kevin\Desktop\Chatty\src\FileManager.cpp
+
+CMakeFiles/Chatty.dir/src/FileManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Chatty.dir/src/FileManager.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kevin\Desktop\Chatty\src\FileManager.cpp > CMakeFiles\Chatty.dir\src\FileManager.cpp.i
+
+CMakeFiles/Chatty.dir/src/FileManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Chatty.dir/src/FileManager.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\kevin\Desktop\Chatty\src\FileManager.cpp -o CMakeFiles\Chatty.dir\src\FileManager.cpp.s
+
+CMakeFiles/Chatty.dir/src/MarkdownRenderer.cpp.obj: CMakeFiles/Chatty.dir/flags.make
+CMakeFiles/Chatty.dir/src/MarkdownRenderer.cpp.obj: CMakeFiles/Chatty.dir/includes_CXX.rsp
+CMakeFiles/Chatty.dir/src/MarkdownRenderer.cpp.obj: C:/Users/kevin/Desktop/Chatty/src/MarkdownRenderer.cpp
+CMakeFiles/Chatty.dir/src/MarkdownRenderer.cpp.obj: CMakeFiles/Chatty.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\kevin\Desktop\Chatty\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Chatty.dir/src/MarkdownRenderer.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Chatty.dir/src/MarkdownRenderer.cpp.obj -MF CMakeFiles\Chatty.dir\src\MarkdownRenderer.cpp.obj.d -o CMakeFiles\Chatty.dir\src\MarkdownRenderer.cpp.obj -c C:\Users\kevin\Desktop\Chatty\src\MarkdownRenderer.cpp
+
+CMakeFiles/Chatty.dir/src/MarkdownRenderer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Chatty.dir/src/MarkdownRenderer.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kevin\Desktop\Chatty\src\MarkdownRenderer.cpp > CMakeFiles\Chatty.dir\src\MarkdownRenderer.cpp.i
+
+CMakeFiles/Chatty.dir/src/MarkdownRenderer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Chatty.dir/src/MarkdownRenderer.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\kevin\Desktop\Chatty\src\MarkdownRenderer.cpp -o CMakeFiles\Chatty.dir\src\MarkdownRenderer.cpp.s
+
+CMakeFiles/Chatty.dir/src/Settings.cpp.obj: CMakeFiles/Chatty.dir/flags.make
+CMakeFiles/Chatty.dir/src/Settings.cpp.obj: CMakeFiles/Chatty.dir/includes_CXX.rsp
+CMakeFiles/Chatty.dir/src/Settings.cpp.obj: C:/Users/kevin/Desktop/Chatty/src/Settings.cpp
+CMakeFiles/Chatty.dir/src/Settings.cpp.obj: CMakeFiles/Chatty.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\kevin\Desktop\Chatty\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Chatty.dir/src/Settings.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Chatty.dir/src/Settings.cpp.obj -MF CMakeFiles\Chatty.dir\src\Settings.cpp.obj.d -o CMakeFiles\Chatty.dir\src\Settings.cpp.obj -c C:\Users\kevin\Desktop\Chatty\src\Settings.cpp
+
+CMakeFiles/Chatty.dir/src/Settings.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Chatty.dir/src/Settings.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kevin\Desktop\Chatty\src\Settings.cpp > CMakeFiles\Chatty.dir\src\Settings.cpp.i
+
+CMakeFiles/Chatty.dir/src/Settings.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Chatty.dir/src/Settings.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\kevin\Desktop\Chatty\src\Settings.cpp -o CMakeFiles\Chatty.dir\src\Settings.cpp.s
+
+CMakeFiles/Chatty.dir/Chatty_autogen/3YJK5W5UP7/qrc_resources.cpp.obj: CMakeFiles/Chatty.dir/flags.make
+CMakeFiles/Chatty.dir/Chatty_autogen/3YJK5W5UP7/qrc_resources.cpp.obj: CMakeFiles/Chatty.dir/includes_CXX.rsp
+CMakeFiles/Chatty.dir/Chatty_autogen/3YJK5W5UP7/qrc_resources.cpp.obj: Chatty_autogen/3YJK5W5UP7/qrc_resources.cpp
+CMakeFiles/Chatty.dir/Chatty_autogen/3YJK5W5UP7/qrc_resources.cpp.obj: CMakeFiles/Chatty.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\kevin\Desktop\Chatty\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Chatty.dir/Chatty_autogen/3YJK5W5UP7/qrc_resources.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Chatty.dir/Chatty_autogen/3YJK5W5UP7/qrc_resources.cpp.obj -MF CMakeFiles\Chatty.dir\Chatty_autogen\3YJK5W5UP7\qrc_resources.cpp.obj.d -o CMakeFiles\Chatty.dir\Chatty_autogen\3YJK5W5UP7\qrc_resources.cpp.obj -c C:\Users\kevin\Desktop\Chatty\build\Chatty_autogen\3YJK5W5UP7\qrc_resources.cpp
+
+CMakeFiles/Chatty.dir/Chatty_autogen/3YJK5W5UP7/qrc_resources.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Chatty.dir/Chatty_autogen/3YJK5W5UP7/qrc_resources.cpp.i"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kevin\Desktop\Chatty\build\Chatty_autogen\3YJK5W5UP7\qrc_resources.cpp > CMakeFiles\Chatty.dir\Chatty_autogen\3YJK5W5UP7\qrc_resources.cpp.i
+
+CMakeFiles/Chatty.dir/Chatty_autogen/3YJK5W5UP7/qrc_resources.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Chatty.dir/Chatty_autogen/3YJK5W5UP7/qrc_resources.cpp.s"
+	C:\Qt\Tools\mingw1310_64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\kevin\Desktop\Chatty\build\Chatty_autogen\3YJK5W5UP7\qrc_resources.cpp -o CMakeFiles\Chatty.dir\Chatty_autogen\3YJK5W5UP7\qrc_resources.cpp.s
+
 # Object files for target Chatty
 Chatty_OBJECTS = \
-"CMakeFiles/Chatty.dir/Chatty_autogen/mocs_compilation.cpp.obj"
+"CMakeFiles/Chatty.dir/Chatty_autogen/mocs_compilation.cpp.obj" \
+"CMakeFiles/Chatty.dir/src/main.cpp.obj" \
+"CMakeFiles/Chatty.dir/src/MainWindow.cpp.obj" \
+"CMakeFiles/Chatty.dir/src/ChatWidget.cpp.obj" \
+"CMakeFiles/Chatty.dir/src/MessageWidget.cpp.obj" \
+"CMakeFiles/Chatty.dir/src/WelcomeWidget.cpp.obj" \
+"CMakeFiles/Chatty.dir/src/OpenRouterAPI.cpp.obj" \
+"CMakeFiles/Chatty.dir/src/FileManager.cpp.obj" \
+"CMakeFiles/Chatty.dir/src/MarkdownRenderer.cpp.obj" \
+"CMakeFiles/Chatty.dir/src/Settings.cpp.obj" \
+"CMakeFiles/Chatty.dir/Chatty_autogen/3YJK5W5UP7/qrc_resources.cpp.obj"
 
 # External object files for target Chatty
 Chatty_EXTERNAL_OBJECTS =
 
 bin/Chatty.exe: CMakeFiles/Chatty.dir/Chatty_autogen/mocs_compilation.cpp.obj
+bin/Chatty.exe: CMakeFiles/Chatty.dir/src/main.cpp.obj
+bin/Chatty.exe: CMakeFiles/Chatty.dir/src/MainWindow.cpp.obj
+bin/Chatty.exe: CMakeFiles/Chatty.dir/src/ChatWidget.cpp.obj
+bin/Chatty.exe: CMakeFiles/Chatty.dir/src/MessageWidget.cpp.obj
+bin/Chatty.exe: CMakeFiles/Chatty.dir/src/WelcomeWidget.cpp.obj
+bin/Chatty.exe: CMakeFiles/Chatty.dir/src/OpenRouterAPI.cpp.obj
+bin/Chatty.exe: CMakeFiles/Chatty.dir/src/FileManager.cpp.obj
+bin/Chatty.exe: CMakeFiles/Chatty.dir/src/MarkdownRenderer.cpp.obj
+bin/Chatty.exe: CMakeFiles/Chatty.dir/src/Settings.cpp.obj
+bin/Chatty.exe: CMakeFiles/Chatty.dir/Chatty_autogen/3YJK5W5UP7/qrc_resources.cpp.obj
 bin/Chatty.exe: CMakeFiles/Chatty.dir/build.make
 bin/Chatty.exe: C:/Qt/6.9.1/mingw_64/lib/libQt6Widgets.a
 bin/Chatty.exe: C:/Qt/6.9.1/mingw_64/lib/libQt6Network.a
@@ -100,7 +293,7 @@ bin/Chatty.exe: C:/Qt/6.9.1/mingw_64/lib/libQt6EntryPoint.a
 bin/Chatty.exe: CMakeFiles/Chatty.dir/linkLibs.rsp
 bin/Chatty.exe: CMakeFiles/Chatty.dir/objects1.rsp
 bin/Chatty.exe: CMakeFiles/Chatty.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\kevin\Desktop\Chatty\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bin\Chatty.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\kevin\Desktop\Chatty\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable bin\Chatty.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Chatty.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Copying Qt6 DLLs"
 	C:\Qt\Tools\CMake_64\bin\cmake.exe -E copy_if_different C:/Qt/6.9.1/mingw_64/bin/Qt6Core.dll C:/Users/kevin/Desktop/Chatty/build/bin
@@ -118,7 +311,8 @@ CMakeFiles/Chatty.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles\Chatty.dir\cmake_clean.cmake
 .PHONY : CMakeFiles/Chatty.dir/clean
 
-CMakeFiles/Chatty.dir/depend:
+CMakeFiles/Chatty.dir/depend: Chatty_autogen/3YJK5W5UP7/qrc_resources.cpp
+CMakeFiles/Chatty.dir/depend: Chatty_autogen/timestamp
 	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\kevin\Desktop\Chatty C:\Users\kevin\Desktop\Chatty C:\Users\kevin\Desktop\Chatty\build C:\Users\kevin\Desktop\Chatty\build C:\Users\kevin\Desktop\Chatty\build\CMakeFiles\Chatty.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/Chatty.dir/depend
 

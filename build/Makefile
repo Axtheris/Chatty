@@ -199,6 +199,30 @@ Chatty_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chatty_autogen.dir\build.make CMakeFiles/Chatty_autogen.dir/build
 .PHONY : Chatty_autogen/fast
 
+Chatty_autogen/3YJK5W5UP7/qrc_resources.obj: Chatty_autogen/3YJK5W5UP7/qrc_resources.cpp.obj
+.PHONY : Chatty_autogen/3YJK5W5UP7/qrc_resources.obj
+
+# target to build an object file
+Chatty_autogen/3YJK5W5UP7/qrc_resources.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chatty.dir\build.make CMakeFiles/Chatty.dir/Chatty_autogen/3YJK5W5UP7/qrc_resources.cpp.obj
+.PHONY : Chatty_autogen/3YJK5W5UP7/qrc_resources.cpp.obj
+
+Chatty_autogen/3YJK5W5UP7/qrc_resources.i: Chatty_autogen/3YJK5W5UP7/qrc_resources.cpp.i
+.PHONY : Chatty_autogen/3YJK5W5UP7/qrc_resources.i
+
+# target to preprocess a source file
+Chatty_autogen/3YJK5W5UP7/qrc_resources.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chatty.dir\build.make CMakeFiles/Chatty.dir/Chatty_autogen/3YJK5W5UP7/qrc_resources.cpp.i
+.PHONY : Chatty_autogen/3YJK5W5UP7/qrc_resources.cpp.i
+
+Chatty_autogen/3YJK5W5UP7/qrc_resources.s: Chatty_autogen/3YJK5W5UP7/qrc_resources.cpp.s
+.PHONY : Chatty_autogen/3YJK5W5UP7/qrc_resources.s
+
+# target to generate assembly for a file
+Chatty_autogen/3YJK5W5UP7/qrc_resources.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chatty.dir\build.make CMakeFiles/Chatty.dir/Chatty_autogen/3YJK5W5UP7/qrc_resources.cpp.s
+.PHONY : Chatty_autogen/3YJK5W5UP7/qrc_resources.cpp.s
+
 Chatty_autogen/mocs_compilation.obj: Chatty_autogen/mocs_compilation.cpp.obj
 .PHONY : Chatty_autogen/mocs_compilation.obj
 
@@ -223,6 +247,222 @@ Chatty_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chatty.dir\build.make CMakeFiles/Chatty.dir/Chatty_autogen/mocs_compilation.cpp.s
 .PHONY : Chatty_autogen/mocs_compilation.cpp.s
 
+src/ChatWidget.obj: src/ChatWidget.cpp.obj
+.PHONY : src/ChatWidget.obj
+
+# target to build an object file
+src/ChatWidget.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chatty.dir\build.make CMakeFiles/Chatty.dir/src/ChatWidget.cpp.obj
+.PHONY : src/ChatWidget.cpp.obj
+
+src/ChatWidget.i: src/ChatWidget.cpp.i
+.PHONY : src/ChatWidget.i
+
+# target to preprocess a source file
+src/ChatWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chatty.dir\build.make CMakeFiles/Chatty.dir/src/ChatWidget.cpp.i
+.PHONY : src/ChatWidget.cpp.i
+
+src/ChatWidget.s: src/ChatWidget.cpp.s
+.PHONY : src/ChatWidget.s
+
+# target to generate assembly for a file
+src/ChatWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chatty.dir\build.make CMakeFiles/Chatty.dir/src/ChatWidget.cpp.s
+.PHONY : src/ChatWidget.cpp.s
+
+src/FileManager.obj: src/FileManager.cpp.obj
+.PHONY : src/FileManager.obj
+
+# target to build an object file
+src/FileManager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chatty.dir\build.make CMakeFiles/Chatty.dir/src/FileManager.cpp.obj
+.PHONY : src/FileManager.cpp.obj
+
+src/FileManager.i: src/FileManager.cpp.i
+.PHONY : src/FileManager.i
+
+# target to preprocess a source file
+src/FileManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chatty.dir\build.make CMakeFiles/Chatty.dir/src/FileManager.cpp.i
+.PHONY : src/FileManager.cpp.i
+
+src/FileManager.s: src/FileManager.cpp.s
+.PHONY : src/FileManager.s
+
+# target to generate assembly for a file
+src/FileManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chatty.dir\build.make CMakeFiles/Chatty.dir/src/FileManager.cpp.s
+.PHONY : src/FileManager.cpp.s
+
+src/MainWindow.obj: src/MainWindow.cpp.obj
+.PHONY : src/MainWindow.obj
+
+# target to build an object file
+src/MainWindow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chatty.dir\build.make CMakeFiles/Chatty.dir/src/MainWindow.cpp.obj
+.PHONY : src/MainWindow.cpp.obj
+
+src/MainWindow.i: src/MainWindow.cpp.i
+.PHONY : src/MainWindow.i
+
+# target to preprocess a source file
+src/MainWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chatty.dir\build.make CMakeFiles/Chatty.dir/src/MainWindow.cpp.i
+.PHONY : src/MainWindow.cpp.i
+
+src/MainWindow.s: src/MainWindow.cpp.s
+.PHONY : src/MainWindow.s
+
+# target to generate assembly for a file
+src/MainWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chatty.dir\build.make CMakeFiles/Chatty.dir/src/MainWindow.cpp.s
+.PHONY : src/MainWindow.cpp.s
+
+src/MarkdownRenderer.obj: src/MarkdownRenderer.cpp.obj
+.PHONY : src/MarkdownRenderer.obj
+
+# target to build an object file
+src/MarkdownRenderer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chatty.dir\build.make CMakeFiles/Chatty.dir/src/MarkdownRenderer.cpp.obj
+.PHONY : src/MarkdownRenderer.cpp.obj
+
+src/MarkdownRenderer.i: src/MarkdownRenderer.cpp.i
+.PHONY : src/MarkdownRenderer.i
+
+# target to preprocess a source file
+src/MarkdownRenderer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chatty.dir\build.make CMakeFiles/Chatty.dir/src/MarkdownRenderer.cpp.i
+.PHONY : src/MarkdownRenderer.cpp.i
+
+src/MarkdownRenderer.s: src/MarkdownRenderer.cpp.s
+.PHONY : src/MarkdownRenderer.s
+
+# target to generate assembly for a file
+src/MarkdownRenderer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chatty.dir\build.make CMakeFiles/Chatty.dir/src/MarkdownRenderer.cpp.s
+.PHONY : src/MarkdownRenderer.cpp.s
+
+src/MessageWidget.obj: src/MessageWidget.cpp.obj
+.PHONY : src/MessageWidget.obj
+
+# target to build an object file
+src/MessageWidget.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chatty.dir\build.make CMakeFiles/Chatty.dir/src/MessageWidget.cpp.obj
+.PHONY : src/MessageWidget.cpp.obj
+
+src/MessageWidget.i: src/MessageWidget.cpp.i
+.PHONY : src/MessageWidget.i
+
+# target to preprocess a source file
+src/MessageWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chatty.dir\build.make CMakeFiles/Chatty.dir/src/MessageWidget.cpp.i
+.PHONY : src/MessageWidget.cpp.i
+
+src/MessageWidget.s: src/MessageWidget.cpp.s
+.PHONY : src/MessageWidget.s
+
+# target to generate assembly for a file
+src/MessageWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chatty.dir\build.make CMakeFiles/Chatty.dir/src/MessageWidget.cpp.s
+.PHONY : src/MessageWidget.cpp.s
+
+src/OpenRouterAPI.obj: src/OpenRouterAPI.cpp.obj
+.PHONY : src/OpenRouterAPI.obj
+
+# target to build an object file
+src/OpenRouterAPI.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chatty.dir\build.make CMakeFiles/Chatty.dir/src/OpenRouterAPI.cpp.obj
+.PHONY : src/OpenRouterAPI.cpp.obj
+
+src/OpenRouterAPI.i: src/OpenRouterAPI.cpp.i
+.PHONY : src/OpenRouterAPI.i
+
+# target to preprocess a source file
+src/OpenRouterAPI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chatty.dir\build.make CMakeFiles/Chatty.dir/src/OpenRouterAPI.cpp.i
+.PHONY : src/OpenRouterAPI.cpp.i
+
+src/OpenRouterAPI.s: src/OpenRouterAPI.cpp.s
+.PHONY : src/OpenRouterAPI.s
+
+# target to generate assembly for a file
+src/OpenRouterAPI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chatty.dir\build.make CMakeFiles/Chatty.dir/src/OpenRouterAPI.cpp.s
+.PHONY : src/OpenRouterAPI.cpp.s
+
+src/Settings.obj: src/Settings.cpp.obj
+.PHONY : src/Settings.obj
+
+# target to build an object file
+src/Settings.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chatty.dir\build.make CMakeFiles/Chatty.dir/src/Settings.cpp.obj
+.PHONY : src/Settings.cpp.obj
+
+src/Settings.i: src/Settings.cpp.i
+.PHONY : src/Settings.i
+
+# target to preprocess a source file
+src/Settings.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chatty.dir\build.make CMakeFiles/Chatty.dir/src/Settings.cpp.i
+.PHONY : src/Settings.cpp.i
+
+src/Settings.s: src/Settings.cpp.s
+.PHONY : src/Settings.s
+
+# target to generate assembly for a file
+src/Settings.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chatty.dir\build.make CMakeFiles/Chatty.dir/src/Settings.cpp.s
+.PHONY : src/Settings.cpp.s
+
+src/WelcomeWidget.obj: src/WelcomeWidget.cpp.obj
+.PHONY : src/WelcomeWidget.obj
+
+# target to build an object file
+src/WelcomeWidget.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chatty.dir\build.make CMakeFiles/Chatty.dir/src/WelcomeWidget.cpp.obj
+.PHONY : src/WelcomeWidget.cpp.obj
+
+src/WelcomeWidget.i: src/WelcomeWidget.cpp.i
+.PHONY : src/WelcomeWidget.i
+
+# target to preprocess a source file
+src/WelcomeWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chatty.dir\build.make CMakeFiles/Chatty.dir/src/WelcomeWidget.cpp.i
+.PHONY : src/WelcomeWidget.cpp.i
+
+src/WelcomeWidget.s: src/WelcomeWidget.cpp.s
+.PHONY : src/WelcomeWidget.s
+
+# target to generate assembly for a file
+src/WelcomeWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chatty.dir\build.make CMakeFiles/Chatty.dir/src/WelcomeWidget.cpp.s
+.PHONY : src/WelcomeWidget.cpp.s
+
+src/main.obj: src/main.cpp.obj
+.PHONY : src/main.obj
+
+# target to build an object file
+src/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chatty.dir\build.make CMakeFiles/Chatty.dir/src/main.cpp.obj
+.PHONY : src/main.cpp.obj
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chatty.dir\build.make CMakeFiles/Chatty.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Chatty.dir\build.make CMakeFiles/Chatty.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -238,9 +478,39 @@ help:
 	@echo ... Chatty_autogen
 	@echo ... Chatty_autogen_timestamp_deps
 	@echo ... Chatty
+	@echo ... Chatty_autogen/3YJK5W5UP7/qrc_resources.obj
+	@echo ... Chatty_autogen/3YJK5W5UP7/qrc_resources.i
+	@echo ... Chatty_autogen/3YJK5W5UP7/qrc_resources.s
 	@echo ... Chatty_autogen/mocs_compilation.obj
 	@echo ... Chatty_autogen/mocs_compilation.i
 	@echo ... Chatty_autogen/mocs_compilation.s
+	@echo ... src/ChatWidget.obj
+	@echo ... src/ChatWidget.i
+	@echo ... src/ChatWidget.s
+	@echo ... src/FileManager.obj
+	@echo ... src/FileManager.i
+	@echo ... src/FileManager.s
+	@echo ... src/MainWindow.obj
+	@echo ... src/MainWindow.i
+	@echo ... src/MainWindow.s
+	@echo ... src/MarkdownRenderer.obj
+	@echo ... src/MarkdownRenderer.i
+	@echo ... src/MarkdownRenderer.s
+	@echo ... src/MessageWidget.obj
+	@echo ... src/MessageWidget.i
+	@echo ... src/MessageWidget.s
+	@echo ... src/OpenRouterAPI.obj
+	@echo ... src/OpenRouterAPI.i
+	@echo ... src/OpenRouterAPI.s
+	@echo ... src/Settings.obj
+	@echo ... src/Settings.i
+	@echo ... src/Settings.s
+	@echo ... src/WelcomeWidget.obj
+	@echo ... src/WelcomeWidget.i
+	@echo ... src/WelcomeWidget.s
+	@echo ... src/main.obj
+	@echo ... src/main.i
+	@echo ... src/main.s
 .PHONY : help
 
 

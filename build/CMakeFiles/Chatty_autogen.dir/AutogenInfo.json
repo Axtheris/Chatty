@@ -317,13 +317,88 @@
 		"C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets.cmake",
 		"C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets-relwithdebinfo.cmake",
 		"C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginAdditionalTargetInfo.cmake",
-		"C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Network/Qt6NetworkVersionlessAliasTargets.cmake"
+		"C:/Qt/6.9.1/mingw_64/lib/cmake/Qt6Network/Qt6NetworkVersionlessAliasTargets.cmake",
+		"C:/Users/kevin/Desktop/Chatty/resources/resources.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "C:/Users/kevin/Desktop/Chatty",
 	"CROSS_CONFIG" : false,
 	"DEP_FILE" : "C:/Users/kevin/Desktop/Chatty/build/Chatty_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "Chatty_autogen/timestamp",
-	"HEADERS" : [],
+	"HEADERS" : 
+	[
+		[
+			"C:/Users/kevin/Desktop/Chatty/src/Application.h",
+			"MU",
+			"UVLADIE3JM/moc_Application.cpp",
+			null
+		],
+		[
+			"C:/Users/kevin/Desktop/Chatty/src/ChatInterface.h",
+			"MU",
+			"UVLADIE3JM/moc_ChatInterface.cpp",
+			null
+		],
+		[
+			"C:/Users/kevin/Desktop/Chatty/src/ChatWidget.h",
+			"MU",
+			"UVLADIE3JM/moc_ChatWidget.cpp",
+			null
+		],
+		[
+			"C:/Users/kevin/Desktop/Chatty/src/FileManager.h",
+			"MU",
+			"UVLADIE3JM/moc_FileManager.cpp",
+			null
+		],
+		[
+			"C:/Users/kevin/Desktop/Chatty/src/MainWindow.h",
+			"MU",
+			"UVLADIE3JM/moc_MainWindow.cpp",
+			null
+		],
+		[
+			"C:/Users/kevin/Desktop/Chatty/src/MarkdownRenderer.h",
+			"MU",
+			"UVLADIE3JM/moc_MarkdownRenderer.cpp",
+			null
+		],
+		[
+			"C:/Users/kevin/Desktop/Chatty/src/Message.h",
+			"MU",
+			"UVLADIE3JM/moc_Message.cpp",
+			null
+		],
+		[
+			"C:/Users/kevin/Desktop/Chatty/src/MessageWidget.h",
+			"MU",
+			"UVLADIE3JM/moc_MessageWidget.cpp",
+			null
+		],
+		[
+			"C:/Users/kevin/Desktop/Chatty/src/OpenRouterAPI.h",
+			"MU",
+			"UVLADIE3JM/moc_OpenRouterAPI.cpp",
+			null
+		],
+		[
+			"C:/Users/kevin/Desktop/Chatty/src/Settings.h",
+			"MU",
+			"UVLADIE3JM/moc_Settings.cpp",
+			null
+		],
+		[
+			"C:/Users/kevin/Desktop/Chatty/src/SettingsDialog.h",
+			"MU",
+			"UVLADIE3JM/moc_SettingsDialog.cpp",
+			null
+		],
+		[
+			"C:/Users/kevin/Desktop/Chatty/src/WelcomeWidget.h",
+			"MU",
+			"UVLADIE3JM/moc_WelcomeWidget.cpp",
+			null
+		]
+	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "C:/Users/kevin/Desktop/Chatty/build/Chatty_autogen/include",
 	"MOC_COMPILATION_FILE" : "C:/Users/kevin/Desktop/Chatty/build/Chatty_autogen/mocs_compilation.cpp",
@@ -399,7 +474,18 @@
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 9,
 	"SETTINGS_FILE" : "C:/Users/kevin/Desktop/Chatty/build/CMakeFiles/Chatty_autogen.dir/AutogenUsed.txt",
-	"SOURCES" : [],
+	"SOURCES" : 
+	[
+		[ "C:/Users/kevin/Desktop/Chatty/src/ChatWidget.cpp", "MU", null ],
+		[ "C:/Users/kevin/Desktop/Chatty/src/FileManager.cpp", "MU", null ],
+		[ "C:/Users/kevin/Desktop/Chatty/src/MainWindow.cpp", "MU", null ],
+		[ "C:/Users/kevin/Desktop/Chatty/src/MarkdownRenderer.cpp", "MU", null ],
+		[ "C:/Users/kevin/Desktop/Chatty/src/MessageWidget.cpp", "MU", null ],
+		[ "C:/Users/kevin/Desktop/Chatty/src/OpenRouterAPI.cpp", "MU", null ],
+		[ "C:/Users/kevin/Desktop/Chatty/src/Settings.cpp", "MU", null ],
+		[ "C:/Users/kevin/Desktop/Chatty/src/WelcomeWidget.cpp", "MU", null ],
+		[ "C:/Users/kevin/Desktop/Chatty/src/main.cpp", "MU", null ]
+	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
 	"UIC_SKIP" : [],

@@ -47,7 +47,10 @@ set(PROJECT_HEADERS
     src/FileManager.h
     src/MarkdownRenderer.h
     src/Settings.h
+    src/SettingsDialog.h
     src/Message.h
+    src/Application.h
+    src/ChatInterface.h
 )
 
 # Resource files

@@ -35,20 +35,19 @@ set(PROJECT_SOURCES
     src/FileManager.cpp
     src/MarkdownRenderer.cpp
     src/Settings.cpp
-    src/Message.cpp
 )
 
-# Header files (using include/ directory)
+# Header files (using src/ directory)
 set(PROJECT_HEADERS
-    include/MainWindow.h
-    include/ChatWidget.h
-    include/MessageWidget.h
-    include/WelcomeWidget.h
-    include/OpenRouterAPI.h
-    include/FileManager.h
-    include/MarkdownRenderer.h
-    include/Settings.h
-    include/Message.h
+    src/MainWindow.h
+    src/ChatWidget.h
+    src/MessageWidget.h
+    src/WelcomeWidget.h
+    src/OpenRouterAPI.h
+    src/FileManager.h
+    src/MarkdownRenderer.h
+    src/Settings.h
+    src/Message.h
 )
 
 # Resource files
@@ -85,7 +84,7 @@ set_target_properties(${PROJECT_NAME} PROPERTIES
 
 # Link Qt libraries
 if(QT_VERSION_MAJOR EQUAL 6)
-    target_link_libraries(${PROJECT_NAME}
+    target_link_libraries(${PROJECT_NAME} PRIVATE
         Qt6::Core
         Qt6::Widgets
         Qt6::Network
@@ -94,7 +93,7 @@ if(QT_VERSION_MAJOR EQUAL 6)
     # Qt6 specific finalization
     qt_finalize_executable(${PROJECT_NAME})
 else()
-    target_link_libraries(${PROJECT_NAME}
+    target_link_libraries(${PROJECT_NAME} PRIVATE
         Qt5::Core
         Qt5::Widgets
         Qt5::Network

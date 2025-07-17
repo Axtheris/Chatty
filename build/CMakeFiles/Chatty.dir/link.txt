@@ -1,3 +1,0 @@
-C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\Chatty.dir/objects.a
-C:\Qt\Tools\mingw1310_64\bin\ar.exe qc CMakeFiles\Chatty.dir/objects.a @CMakeFiles\Chatty.dir\objects1.rsp
-C:\Qt\Tools\mingw1310_64\bin\c++.exe -O3 -DNDEBUG -mwindows -Wl,--whole-archive CMakeFiles\Chatty.dir/objects.a -Wl,--no-whole-archive -o bin\Chatty.exe -Wl,--out-implib,libChatty.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Chatty.dir\linkLibs.rsp

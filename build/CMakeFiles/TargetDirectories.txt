@@ -1,9 +1,0 @@
-C:/Users/kevin/Desktop/Chatty/build/CMakeFiles/Chatty.dir
-C:/Users/kevin/Desktop/Chatty/build/CMakeFiles/edit_cache.dir
-C:/Users/kevin/Desktop/Chatty/build/CMakeFiles/rebuild_cache.dir
-C:/Users/kevin/Desktop/Chatty/build/CMakeFiles/list_install_components.dir
-C:/Users/kevin/Desktop/Chatty/build/CMakeFiles/install.dir
-C:/Users/kevin/Desktop/Chatty/build/CMakeFiles/install/local.dir
-C:/Users/kevin/Desktop/Chatty/build/CMakeFiles/install/strip.dir
-C:/Users/kevin/Desktop/Chatty/build/CMakeFiles/Chatty_autogen_timestamp_deps.dir
-C:/Users/kevin/Desktop/Chatty/build/CMakeFiles/Chatty_autogen.dir

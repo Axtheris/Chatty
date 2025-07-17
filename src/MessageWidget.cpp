@@ -13,6 +13,9 @@
 #include <QContextMenuEvent>
 #include <QMenu>
 #include <QAction>
+#include <QEnterEvent>
+#include <QMouseEvent>
+#include <QPaintEvent>
 #include <QPainter>
 #include <QGraphicsDropShadowEffect>
 
@@ -378,4 +381,29 @@ QString MessageWidget::formatFileSize(qint64 bytes)
     } else {
         return QString::number(bytes) + " bytes";
     }
+}
+
+void MessageWidget::paintEvent(QPaintEvent *event)
+{
+    QWidget::paintEvent(event);
+}
+
+void MessageWidget::mousePressEvent(QMouseEvent *event)
+{
+    QWidget::mousePressEvent(event);
+}
+
+void MessageWidget::mouseReleaseEvent(QMouseEvent *event)
+{
+    QWidget::mouseReleaseEvent(event);
+}
+
+void MessageWidget::enterEvent(QEnterEvent *event)
+{
+    QWidget::enterEvent(event);
+}
+
+void MessageWidget::leaveEvent(QEvent *event)
+{
+    QWidget::leaveEvent(event);
 } 
